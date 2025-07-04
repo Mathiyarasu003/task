@@ -7,6 +7,8 @@
 - Firebase (for auth) or OAuth2
 - Socket.IO Client
 
+- FRONTEND URL : https://firebase.google.com/docs/hosting/
+
 ### ⚙️ Backend
 - Node.js + Express.js
 - MongoDB + Mongoose
@@ -40,7 +42,6 @@ todo-task-manager/
     │   ├── pages/
     │   ├── context/
     │   └── App.jsx
-FRONTEND URL :
 
 
 
