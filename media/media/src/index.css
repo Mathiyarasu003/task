@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #3b82f6;
+  --secondary-color: #10b981;
+  --danger-color: #ef4444;
+  --background-color: #f8fafc;
+  --text-color: #1f2937;
+  --border-radius: 0.75rem;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #6a82fb 0%, #fc5c7d 100%) fixed;
+  font-family: 'Inter', 'Roboto', Arial, sans-serif;
+}
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: inherit;
+}
+
+.btn {
+  @apply px-5 py-2.5 rounded-lg font-semibold text-white transition-all duration-300 shadow-md;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700;
+}
+
+.btn-danger {
+  @apply bg-red-500 hover:bg-red-600;
+}
+
+.input {
+  @apply w-full px-4 py-3 mt-2 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300;
+}
